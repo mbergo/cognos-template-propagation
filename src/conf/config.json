@@ -1,0 +1,24 @@
+{
+	"environments": [
+		{
+			"env1": "Environment1A",
+			"env2": "Environment2A",
+			"exportPath": "/path/to/exportedA.zip",
+			"importPath": "/path/to/importedA.zip",
+			"sqlQueries": {
+				"maxTemplateID": "SELECT MAX(TEMPLATE_ID) FROM MN_REPORT_TEMPLATE;",
+				"exportRecords": "Your SQL Export Query A"
+			}
+		},
+		{
+			"env1": "Environment1B",
+			"env2": "Environment2B",
+			"exportPath": "/path/to/exportedB.zip",
+			"importPath": "/path/to/importedB.zip",
+			"sqlQueries": {
+				"maxTemplateID": "SELECT MAX(TEMPLATE_ID) FROM MN_REPORT_TEMPLATE;",
+				"exportRecords": "Your SQL Export Query B"
+			}
+		}
+	]
+}
